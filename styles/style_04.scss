@@ -1,0 +1,19 @@
+@import "remote.css";
+
+:root {
+  --primary-color: #70419e;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+}
+
+.item {
+  padding: 2em;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
+}

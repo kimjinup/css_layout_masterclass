@@ -92,12 +92,14 @@ $borderWidth: 1px;
         background-color: white;
         width: 55%;
         padding: 10px;
+        gap: 10px;
         .product__question {
           display: flex;
           justify-content: space-between;
           font-size: 13px;
           border-bottom: $borderWidth solid $borderColor;
           padding: 5px;
+          text-transform: uppercase;
         }
       }
     }
